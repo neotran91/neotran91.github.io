@@ -1,1 +1,16 @@
 Hello World
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js" crossorigin></script>
+<script type="text/babel">
+class Greeting extends React.Component {
+    render() {
+        return (<h1>Nguyễn Vương Trần </h1>);
+    }
+}
+ReactDOM.render(
+    <Greeting />,
+    document.getElementById('root')
+);
+</script>
